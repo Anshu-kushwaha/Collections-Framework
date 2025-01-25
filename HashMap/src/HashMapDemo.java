@@ -5,10 +5,10 @@ import java.util.Set;
 public class HashMapDemo {
     public static void main(String[] args) {
         HashMap<Integer, String> map = new HashMap<>();
-        map.put(1, "Anshu");
-        map.put(2, "Komal");
-        map.put(3, "Mohit");
-        map.put(4, "Jiya");
+        map.put(1, "Rohit");
+        map.put(2, "Arun");
+        map.put(3, "Sunil");
+        map.put(4, "Raj");
 
         System.out.println(map);
 
