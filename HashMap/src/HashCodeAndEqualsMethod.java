@@ -5,9 +5,9 @@ import java.util.Objects;
 public class HashCodeAndEqualsMethod {
     public static void main(String[] args) {
         HashMap<Person, String> map = new HashMap<>();
-        Person p1 = new Person("Komal", 1);
-        Person p2 = new Person("Anshu", 2);
-        Person p3 = new Person("Komal", 1);
+        Person p1 = new Person("Anil", 1);
+        Person p2 = new Person("Rahul", 2);
+        Person p3 = new Person("Rohit", 1);
 
         map.put(p1, "Designer");
         map.put(p2, "Engineer");
@@ -23,9 +23,9 @@ public class HashCodeAndEqualsMethod {
         System.out.println(p1);
 
         Map<String, Integer> map1 = new HashMap<>();
-        map1.put("Mohit", 90); // hashcode1 --> index1
-        map1.put("Jiya", 92); // hashcode2 --> index2
-        map1.put("Mohit", 99); // hashcode1 --> index1 --> equals() --> replace
+        map1.put("Kumar", 90); // hashcode1 --> index1
+        map1.put("Pappu", 92); // hashcode2 --> index2
+        map1.put("Rathi", 99); // hashcode1 --> index1 --> equals() --> replace
 
     }
 
