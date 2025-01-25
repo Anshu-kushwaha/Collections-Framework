@@ -19,10 +19,10 @@ class Student {
 public class Main {
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
-        students.add(new Student("Anshu", 8.5));
-        students.add(new Student("Jiya", 5.7));
-        students.add(new Student("Mohit", 6.5));
-        students.add(new Student("Komal", 9.5));
+        students.add(new Student("Raj", 8.5));
+        students.add(new Student("Kumar", 5.7));
+        students.add(new Student("Rohit", 6.5));
+        students.add(new Student("Ronit", 9.5));
 
         Comparator<Student> comparator = Comparator.comparing(Student::getGpa).reversed();  // ->  JAVA 8's Function
               //                                                                   ^
